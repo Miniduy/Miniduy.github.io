@@ -1629,6 +1629,13 @@ body {
 }
 
 h1 {
+  position: fixed; /* Fija el encabezado en la parte superior */
+  top: 0; /* Alineado al borde superior */
+  left: 0; /* Alineado al borde izquierdo */
+}
+
+
+h1 {
   font-size: 2em;
   line-height: 1.5;
   margin-bottom: 20px;
